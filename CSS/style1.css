@@ -1,0 +1,593 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page1{
+    height: 80vh;
+    width: 100%;
+}
+
+.navbar{
+    height: 15%;
+    width: 100%;
+    background: white;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li{
+    margin: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.nav button{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color: rgb(233, 27, 27);
+    color: white;
+    border: none;
+    height: 55px;
+    width: 6%;
+    margin-top: 15px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(/Images/page1.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 100px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.container p{
+    font-size: 40px;
+    color:  rgb(216, 205, 205);
+    margin-bottom: 0px;
+}
+
+.page2{
+    height: 110vh;
+    width: 100%;
+    background-color: white;
+}
+
+.box{
+    height: 55%;
+    width: 100%;
+    display: flex;
+}
+
+.box1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1{
+    height: 75%;
+    width:  55%;
+}
+
+.image1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.select{
+    height: 100%;
+    width: 50%;
+}
+
+.select h4{
+    margin-top: 75px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.select p{
+    font-size: 30px;
+}
+
+.select button{
+    height: 15%;
+    width: 30%;
+    border-radius: 35px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    margin-top: 15px;
+}
+
+.hello{
+    height: 55%;
+    width: 100%;
+    display: flex;
+}
+
+.choose{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image2{
+    height: 75%;
+    width: 55%;
+}
+
+.image2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.recipes{
+    height: 100%;
+    width: 50%;
+}
+
+.recipes h4{
+    margin-top: 75px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.recipes p{
+    font-size: 30px;
+}
+
+.page3{
+ height: 110vh;
+ width: 100%;
+ margin-top: 80px;
+}
+
+.receive{
+    height: 55%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.your{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image3{
+    height: 75%;
+    width: 55%;
+}
+
+.image3 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.delivery{
+    height: 100%;
+    width: 50%;
+}
+
+.delivery h4{
+    margin-top: 75px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.delivery p{
+    font-size: 30px;
+}
+
+.cook{
+    height: 55%;
+    width: 100%;
+    display: flex;
+}
+
+.eat{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image4{
+    height: 75%;
+    width: 55%;
+}
+
+.image4 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.enjoy{
+    height: 100%;
+    width: 50%;
+}
+
+
+.enjoy h4{
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+.enjoy p{
+    font-size: 30px;
+}
+
+.enjoy button{
+    height: 15%;
+    width: 30%;
+    border-radius: 35px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    margin-top: 10px;
+}
+
+.page4{
+    height: 100vh;
+    width: 100%;
+}
+
+.frequently{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.frequently h1{
+    margin-top: 13%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.inputs{
+    height: 45%;
+    width: 100%;
+    display: flex;
+}
+
+.inputs1{
+    height: 100%;
+    width: 50%;
+}
+
+.input1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input1 input{
+    height: 30%;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 35%;
+}
+
+.input2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input2 input{
+    height: 30%;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    margin-left: 35%;
+}
+
+.inputs2{
+    height: 100%;
+    width: 50%;
+}
+
+.input3{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input3 input{
+    height: 30%;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-right: 35%;
+}
+
+.input4{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input4 input{
+    height: 30%;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    margin-right: 35%;
+}
+
+.faq{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq button{
+    height: 40%;
+    width: 15%;
+    border-radius: 40px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-bottom: 90px;
+}
+
+.page5{
+    height: 100vh;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.pg5{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: red;
+}
+
+.informations{
+    height: 25%;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.info1{
+    height: 100%;
+    width: 15%;
+}
+
+.info2{
+    height: 100%;
+    width: 15%;
+}
+
+.info3{
+    height: 100%;
+    width: 15%;
+}
+
+.info4{
+    height: 100%;
+    width: 15%;
+}
+
+.info5{
+    height: 100%;
+    width: 15%;
+}
+
+.info1 h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: blue;
+}
+
+.info1 p{
+    font-size: 22px;
+    color: rgb(175, 170, 170);
+}
+
+.info2 h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: blue;
+}
+
+.info2 p{
+    font-size: 22px;
+    color: rgb(175, 170, 170);
+}
+
+.info3 h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: blue;
+}
+
+.info3 p{
+    font-size: 22px;
+    color: rgb(175, 170, 170);
+}
+
+.info4 h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: blue;
+}
+
+.info4 p{
+    font-size: 22px;
+    color: rgb(175, 170, 170);
+}
+
+.info5 h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: blue;
+}
+
+.info5 p{
+    font-size: 22px;
+    color: rgb(175, 170, 170);
+}
+
+
+.newsletter{
+    height: 25%;
+    width: 100%;
+    margin-top: 65px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.news{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+}
+.new1{
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+
+.google{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+}
+
+.follow{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+}
+
+.news h1{
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+    color: blue;
+}
+
+.news label{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color:  rgb(175, 170, 170);
+}
+
+ .new1 input{
+    height: 60px;
+    width: 65%;
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+    font-size: 20px;
+} 
+ 
+.new1 button{
+    height: 65px;
+    width: 25%;
+    border-radius: 0 8px 8px 0;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+.google h1{
+    margin-top: 25px;
+    font-size: 25px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.follow h1{
+    margin-top: 25px;
+    font-size: 25px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.page51 h4{
+    margin-top: 45px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.page51 p{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30%;
+}

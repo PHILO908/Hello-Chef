@@ -1,0 +1,700 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    background: white;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li{
+    margin: 15px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.nav button{
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    height: 48px;
+    width: 8%;
+    margin-top: 15px;
+}
+
+.container{
+    height: 90%;
+    width: 100%;
+    background-image: url(/Images/banner.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    font-size: 42px;
+    line-height: 120%;
+    font-weight: 700;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.container p{
+    font-size: 18px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    text-align: center;
+    line-height: 28px;
+}
+
+.container button{
+    height: 12%;
+    width: 20%;
+    border-radius: 40px;
+    background-color: rgb(219, 56, 56);
+    color: white;
+    border: none;
+    margin: 15px;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page2 h1{
+    font-size: 32px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.page2{
+    font-size: 20px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.images{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image1{
+    height: 100%;
+    width: 30%;
+}
+
+.image1 img{
+    height: 40%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.image1 h4{
+    font-size: 30px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.image1 p{
+    font-size: 18px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.image2{
+    height: 100%;
+    width: 30%;
+}
+.image2 img{
+    height: 40%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.image2 h4{
+    font-size: 30px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.image2 p{
+    font-size: 18px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.image3{
+    height: 100%;
+    width: 30%;
+}
+
+.image3 img{
+    height: 40%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.image3 h4{
+    font-size: 30px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.image3 p{
+    font-size: 18px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+}
+
+.left img{
+    height: 100%;
+    width: 100%
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    background-color: pink;
+}
+
+.right h1{
+    font-size: 40px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    color: rgb(228, 14, 14);
+    margin-left: 60px;
+    margin-top: 20%;
+}
+
+.right p{
+    font-size: 20px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    margin-left: 60px;
+    font-weight: 100;
+}
+
+.list{
+    font-size: 20px;
+    font-family: Poppins, Helvetica, Arial, sans-serif; 
+    margin-left: 60px;
+    font-weight: 550;
+    list-style: none;
+    margin-top: 40px;
+    display: grid;
+    row-gap: 30px;
+}
+
+.right button{
+    height: 10%;
+    width: 28%;
+    font-size: 20px;
+    border-radius: 40px;
+    color:white;
+    background-color: red;
+    border: none;
+    margin: 30px;
+    margin-left: 12%;
+    font-weight: 700;
+}
+
+.page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page4 h1{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.page4 p{
+    font-size: 20px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.pictures{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.picture1 {
+    height: 100%;
+    width: 30%;
+}
+.picture2 {
+    height: 100%;
+    width: 30%;
+}
+.picture3 {
+    height: 100%;
+    width: 30%;
+}
+.picture1 img{
+    height: 100%;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.picture2 img{
+    height: 100%;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.picture3 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.page4 button{
+    height: 10%;
+    width: 15%;
+    font-size: 15px;
+    border-radius: 40px;
+    color:white;
+    background-color: red;
+    border: none;
+    margin: 40px;
+    font-weight: 800;
+}
+
+.page5{
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(241, 226, 226);
+}
+
+.page5 h1{
+    font-size: 32px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.hellochef{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hellochef1{
+    height: 100%;
+    width: 20%;
+}
+
+.hellochef2{
+    height: 100%;
+    width: 20%;
+}
+
+.hellochef3{
+    height: 100%;
+    width: 20%;
+}
+
+.hellochef4{
+    height: 100%;
+    width: 20%;
+}
+
+.hellochef1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.hellochef2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.hellochef3 img{
+    height: 100%;
+    width: 100%;
+}
+
+.hellochef4 img{
+    height: 100%;
+    width: 100%;
+}
+
+.page5 p{
+    margin-top: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.lastchef{
+    height: 20%;
+    width: 80%;
+    margin-top: 5%;
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+.lastchef1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    background-color: blue;
+}
+
+.lastchef1 h4{
+    /* margin-left: 8%; */
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    margin-left: 140px;
+}
+
+.lastchef1 button{
+    /* font-size: 20; */
+    font-weight: 800;
+    color: white;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    height: 70%;
+    width: 10%;
+    border-radius: 15px;
+    background-color: red;
+    border: none;
+    margin-top: 17px;
+    margin-left: 5px;
+    /* margin-left: 10px; */
+}
+
+.lastchef h6{
+    font-size: 25px;
+    font-weight: 100;
+    
+    /* width: 50%; */
+}
+
+
+.page6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/Images/subscribe.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscribe{
+    height: 40%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 10%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.subscribe h4{
+    font-size: 36px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.subscribe h6{
+    font-size: 20px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    font-weight: 100;
+}
+.subscribe label{
+    margin-left: 31%;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.sub1{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    margin-left: 20%;
+}
+
+.sub1 input{
+    height: 45%;
+    width: 35%;
+    border-radius: 8px 0 0 8px;
+    margin-left: 130px;
+    font-size: 20px;
+    border-right: none;
+    
+}
+
+.sub1 button{
+    height: 50%;
+    width: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0 8px 8px 0;
+    color: white;
+    background-color: red;
+}
+
+
+
+.page6 p{
+    font-size: 18px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    text-align: center; 
+    color:   rgb(241, 226, 226);
+}
+
+.page7{
+    height: 100vh;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.pg7{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: red;
+}
+
+
+.informations{
+    height: 25%;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.info1{
+    height: 100%;
+    width: 15%;
+}
+
+.info2{
+    height: 100%;
+    width: 15%;
+}
+
+.info3{
+    height: 100%;
+    width: 15%;
+}
+
+.info4{
+    height: 100%;
+    width: 15%;
+}
+
+.info5{
+    height: 100%;
+    width: 15%;
+}
+
+.info1 h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.info1 p{
+    font-size: 20px;
+    color: rgb(175, 170, 170);
+}
+
+.info2 h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.info2 p{
+    font-size: 20px;
+    color: rgb(175, 170, 170);
+}
+
+.info3 h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.info3 p{
+    font-size: 20px;
+    color: rgb(175, 170, 170);
+}
+
+.info4 h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.info4 p{
+    font-size: 20px;
+    color: rgb(175, 170, 170);
+}
+
+.info5 h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.info5 p{
+    font-size: 20px;
+    color: rgb(175, 170, 170);
+}
+
+
+.newsletter{
+    height: 25%;
+    width: 100%;
+    margin-top: 65px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.news{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+}
+.new1{
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+
+.google{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+}
+
+.follow{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+}
+
+.news h1{
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+}
+
+.news label{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color:  rgb(175, 170, 170);
+}
+
+ .new1 input{
+    height: 60px;
+    width: 65%;
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+    font-size: 15px;
+} 
+ 
+.new1 button{
+    height: 65px;
+    width: 25%;
+    border-radius: 0 8px 8px 0;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+
+.google h1{
+    margin-top: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.follow h1{
+    margin-top: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.page71 h4{
+    margin-top: 45px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.page71 p{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30%;
+}
